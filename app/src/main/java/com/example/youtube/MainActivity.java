@@ -58,10 +58,6 @@ Objects.requireNonNull(getSupportActionBar()).hide();
 
 
         webView.setWebViewClient(new WebViewClient() {
-            //
-
-//
-
 
             @Override
             public void onPageFinished(WebView view, String url)
@@ -102,8 +98,6 @@ Objects.requireNonNull(getSupportActionBar()).hide();
         });
 
     }
-
-
     @RequiresApi(api = Build.VERSION_CODES.O)
     @Override
     public void onUserLeaveHint () {
@@ -113,9 +107,6 @@ Objects.requireNonNull(getSupportActionBar()).hide();
             enterPictureInPictureMode(pictureInPictureParams);
 
     }
-
-
-
 
     @Override
     public void onPictureInPictureModeChanged(boolean isInPictureInPictureMode) {
