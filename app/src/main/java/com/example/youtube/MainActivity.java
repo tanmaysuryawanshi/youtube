@@ -39,8 +39,6 @@ public class MainActivity extends AppCompatActivity {
 Objects.requireNonNull(getSupportActionBar()).hide();
 
         webView=findViewById(R.id.webView);
-
-
         String url="https://www.youtube.com";
 
         WebView webView = new WebView(this);
